@@ -1,0 +1,110 @@
+.mainHeading {
+    text-align: center;
+}
+
+.secondHeading{
+   text-align: center;
+}
+
+table, th, td {
+    border:1px solid black;
+    width:50%; 
+    float:center; 
+    background-color:lightgray;
+   margin: auto;
+   place-items: center;
+   
+  }
+
+ #introduction {
+    padding: 10px;
+    text-align: center;
+    float: inline-start;
+ }
+
+ .pictures {
+    padding: 10px;
+    display: grid;
+    place-items: center;
+   
+ }
+
+ .tableHeading {
+    padding: 10px;
+ }
+
+ img {
+    width: 100px; 
+    height: 100px;
+  
+ }
+
+ .links {
+    text-align: center;
+ }
+
+
+
+
+ul {
+   display: inline-table;
+   font-size: small;
+   font-variant: small-caps;
+}
+
+.productList {
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+#productList {
+   font-style: italic;
+
+  
+}
+
+.main {
+   background-color: lightgray;
+   position: absolute;
+   place-items: center;
+   
+}
+
+.socialLinks {
+   position: absolute;
+   right: 0;
+   top: 0;
+   margin-right: 10%;
+}
+
+input {
+   position:absolute;
+}
+
+
+#form {
+   border:1px solid black;
+    width:50%; 
+    
+    background-color:lightgray;
+  
+   place-items: center;
+}
+
+#products {
+  width: 147px;
+}
+
+.startList {
+   font-style: italic;
+}
+
+.formTitle {
+   font-style: oblique; 
+   font-size: 18pt;
+   color: blueviolet;
+}
+
+h1 {
+   padding-top: 10%;
+}

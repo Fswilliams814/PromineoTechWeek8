@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Form</title>
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="mywebsite.css"
+  
+ </head>
+ <body class="main">
+  <h1>Health and Wellness Products <br>
+     Total Mind and Body</h1>
+
+  <p class="formTitle">Place Order Here!</p>
+
+  <form id="form" onsubmit="return false;">
+   <label for="name">Full Name:</label><br>
+  <input type="text" id="name" placeholder="Enter full name"/><br>
+  <label for="number">Phone Number:</label><br>
+  <input type="text" id="number" placeholder="Enter phone number"/><br>
+  <label for="products">Choose Your Product</label><br>
+  <select id="products" name="product">
+   <option value="Choose Your Product">---</option>
+   <option value="Q Daily Detox Tea, Herbal Tea - $32.50">Q Daily Detox Tea, Herbal Tea - $32.50</option>
+   <option value="Q Ultra Greens, Apple Cinnamon - $52.50">Q Ultra Greens, Apple Cinnamon - $52.50</option>
+   <option value="Q Armor Chai Spice - $45">Q Armor Chai Spice - $45</option>
+   <option value="Q Core Daily Nutrition Vitamins - $150">Q Core Daily Nutrition Vitamins - $150</option>
+   <option value="Q Twist Crave Berry Smoothie - $52.50">Q Twist Crave Berry Smoothie - $52.50</option>
+   <option value="Q Twist Hydrate Juicy Grape - $52.50">Q Twist Hydrate Juicy Grape - $52.50</option>
+   <option value="Q Twist Calm Peach Lemonade NON-HEMP - $52.50">Q Twist Calm Peach Lemonade NON-HEMP - $52.50</option>
+   <option value="Q Twist Calm Peach Lemonade - $52.50">Q Twist Calm Peach Lemonade - $52.50</option>
+   <option value="Q Twist Variety Pack Berry Smoothie, Juicy Grape, Peach Lemonade - $52.50">Q Twist Variety Pack Berry Smoothie, Juicy Grape, Peach Lemonade - $52.50</option>
+   <option value="Q REV Pre-Workout Fresh Strawberry - $55">Q REV Pre-Workout Fresh Strawberry - $55</option>
+</select><br>
+  <label for="date">What date would you like to purchase?</label><br>
+
+  <input type="text" id="date" placeholder="Enter date for purchase"/><br>
+  <input type="submit" onclick="confirmInfo();"/><br>
+
+  </form><br>
+
+ 
+  <a href="mywebsite.html">Home Page</a><br>
+  <a href="secondpage.html">Product List</a>
+
+
+  <h2>Thank you for ordering with us!</h2>
+
+  <script src="thirdpage.js"></script>
+
+ </body>
+ </html>
